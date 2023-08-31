@@ -1,0 +1,7 @@
+P3 # defines the image format, what type of PPM (full color, ASCII encoding)
+3 3 # Number of pixels per row, number of pixels per column
+255 # Maximum color value, each red, green, and blue valyue for a pixel can range 0 - 255
+# begin pixel data
+255   0   0    0 255   0    0   0 255
+255 255   0    255 255 255  0   0   0
+255 255 255    255 255 255  255 255 255

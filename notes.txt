@@ -1,0 +1,43 @@
+General Structure:
+
+	- what is SDL
+	- Why use SDL for C programming?
+	- how to open an empty window using SDL
+	- how to compile your code using SDL
+	- keeping window open and button listners
+	- parsing and loading RGB data into a c program
+	- drawing pixel by pixel onto the screen
+	- assigning byte arrays to a custom struct for each screen asset
+	- drawing a character onto the screen
+	- moving it around onto the screen
+	- (what I have now - gravity, collision maps, side scrolling)
+
+This is something I've taken up in my downtime as I've been learning C I wanted to get a grasp on basic graphics
+
+
+(got the empty window)
+now that we have a window, there are a lot of things we can do. We can add code to keep the window open until someone presses the quit button,
+add keyboard and mouse listeners, for now lets fill the screen with some pixels.
+
+Theres a few different ways you can get an image or pixel data onto the screen. The easiest, is to load in a .png file and call an SDL
+function that loads the renderer with that image data
+
+I wanted to parse the pixel data into my c program myself instead of using SDL to load the image data in,  so I could modify the different 
+pixel data to do some cool stuff with it
+down the line, but parsing through a png file turned out to be pretty difficult if I wanted to do the pixel processing myself as a learning
+tool, so I decided to use portable pixel maps 
+
+ppms are not compressed so its not the most efficient image format, but I found it to be the most approachable format
+to get started with basic graphics processing as a learning tool. you can open the file from your terminal, and make any modifications you want 
+to the image data
+
+
+
+
+SDL has functions that can read a png image and display it into the screen
+
+I wanted to use SDL mostly as a tool to give me a window  and handle as much of the graphics processing 
+as I could by writting the c code myself
+
+.ppm files, portable pixel map
+
