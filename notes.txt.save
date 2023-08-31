@@ -1,0 +1,14 @@
+
+SDL has functions that can read a png image and display it into the screen
+
+I wanted to use SDL mostly as a tool to give me a window  and handle as much of the graphics processing 
+as I could by writting the c code myself
+
+.ppm files, portable pixel map
+
+I wanted to quickly be able to change the pixel output on the screen by opening the image 
+file in a text editorand changing the RBG values myself
+
+PNG is a bit more complcated for fast in file pixel manipulation
+
+
